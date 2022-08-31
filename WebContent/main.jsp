@@ -115,7 +115,7 @@
   <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
     <div class="col-md-5 p-lg-5 mx-auto my-5">
       <h1 class="display-4 fw-normal">맛집 리스트</h1>
-      <p class="lead fw-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple’s marketing pages.</p>
+      <p class="lead fw-normal">전체 맛집 리스트 입니다.</p>
       <a class="btn btn-outline-secondary" href="boardlist.jsp">GO</a>
     </div>
     <div class="product-device shadow-sm d-none d-md-block"></div>
@@ -127,7 +127,7 @@
       <div class="my-3 py-3">
         <h2 class="display-5">추천맛집</h2>
         <a class="btn btn-outline-secondary" href="boardfavorite.jsp">GO</a>
-        <p class="lead">And an even wittier subheading.</p>
+        <p class="lead">평점 4점 이상의 맛집 리스트입니다.</p>
       </div>
       <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
     </div>
@@ -135,7 +135,7 @@
       <div class="my-3 p-3">
            <h2 class="display-5">가격별맛집</h2>
         <a class="btn btn-outline-secondary" href="boardfavorite.jsp">GO</a>
-        <p class="lead">And an even wittier subheading.</p>
+        <p class="lead">가격별 맛집 리스트입니다.</p>
       </div>
       <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
     </div>
@@ -144,7 +144,7 @@
       <div class="my-3 p-3">
              <h2 class="display-5">음식별맛집</h2>
         <a class="btn btn-outline-secondary" href="boardfavorite.jsp">GO</a>
-        <p class="lead">And an even wittier subheading.</p>
+        <p class="lead">음식종류별 맛집 리스트입니다.</p>
       </div>
       <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
     </div>
@@ -152,7 +152,7 @@
       <div class="my-3 py-3">
                <h2 class="display-5">지역별맛집</h2>
         <a class="btn btn-outline-secondary" href="boardfavorite.jsp">GO</a>
-        <p class="lead">And an even wittier subheading.</p>
+        <p class="lead">지역별 맛집 리스트입니다.</p>
       </div>
       <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
     </div>
