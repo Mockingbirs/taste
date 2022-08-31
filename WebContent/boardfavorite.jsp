@@ -25,46 +25,54 @@
 
 
 
-<div class="container">
-<div class="row" align="center">
 
-<table class="table table-hover">
-  <thead>
-    <tr>
-      <th scope="col">번호</th>
-      <th scope="col">제목</th>
-      <th scope="col">작성자</th>
-      <th scope="col">날짜</th>
-    </tr>
-  </thead>
-	
+<main>
 
-  <tbody>
-       <%
 
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      
+      
+             <%
+ 
+
+        
 
 ArrayList<DTOboard> boards = DAOboard.boardfavoriteList();
 
 for (DTOboard board : boards) {
-%>	
-    <tr>
- 
-      <th scope="row"><%=board.getBno()%></th>
-      <td><a href="boarddetail.jsp?bno=<%=board.getBno() %>"><%=board.getBtitle() %></a></td>
-      <td><%=board.getBauthor() %></td>
-      <td><%=board.getBdate() %></td>
-
-    </tr>
-  	
-    <% 	
+ 	String img =  board.getBimage();  
+	String imgstr = "";
+	if (img != null) {
+		imgstr = "images/" + img;
 	}
-%>  
-    
-</table>
+%>	
+      
+      
+      <div class="card" style="width: 18rem;">
+  <img src="<%=imgstr %>" class="card-img-top" alt="..." style="height: 12rem;">
+  <div class="card-body">
+    <h5 class="card-title"><%=board.getBtitle() %></h5>
+    <p class="card-text"><%=board.getBcontent() %></p>
+    <a href="boarddetail.jsp?bno=<%=board.getBno() %>" class="btn btn-primary">상세보기</a>
+  </div>
+</div>
+      
+
+       
+       <%} %>
+          </div>
+        </div>
+      </div>
+ 
+
+</main>
 
 
-</div>
-</div>
+
+
 <%if(mid != null){ %>
 <a href="boardinputpage.jsp" class="btn btn-primary" role = "button">등록</a>
  <%} %>

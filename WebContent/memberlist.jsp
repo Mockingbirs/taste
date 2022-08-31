@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>내가 등록한 맛집</title>
+<title>회원리스트</title>
 
 <%@ include file="header.jsp" %>
 <%
@@ -24,7 +24,7 @@ if(mid == null){
 <div class="container">
 
 	<h1 class = "display-3">
-		내가등록한 맛집 
+		회원리스트 
 	</h1>
 </div>	
 </div>

@@ -49,7 +49,7 @@ DTOboard board = DAOboard.boardEdit(bno);
 <div class="alert alert-secondary" role="alert">
 	<div class="container">
 		<h1 class="display-3">
-		맛집등록
+		등록된 맛집 수정
 		</h1>
 	</div>
 </div>

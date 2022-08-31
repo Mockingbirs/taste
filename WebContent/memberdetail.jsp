@@ -25,7 +25,7 @@
 %>    
 <div class="alert alert-secondary" role="alert">
 <div class="container">
-	<h1 class = "display-3">product Detail</h1>
+	<h1 class = "display-3"><%=mid %>님의 개인정보</h1>
 </div>	
 </div>
 

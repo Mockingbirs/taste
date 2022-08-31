@@ -13,7 +13,7 @@ if(mid == null){
 <meta charset="UTF-8">
 
 
-<title>회원가입</title>
+<title>개인정보 수정</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/checkout/">
 
@@ -111,7 +111,7 @@ if(mid == null){
     <div class="row g-5">
  
       <div class="col-md-7 col-lg-8">
-        <h4 class="mb-3">회원가입</h4>
+        <h4 class="mb-3">개인정보 수정</h4>
         
         
         <form name="joinform" class="needs-validation"   action = "memberedit.jsp" >       
